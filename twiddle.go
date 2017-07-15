@@ -42,6 +42,6 @@ func twiddle(t string, extra bool, light bool) {
 		}
 	}
 	fmt.Println(t)
-	fmt.Println(string(t[0]) + t)        // aliceh -> aaliceh
-	fmt.Println(string(t[len(t)-1]) + t) // aliceh -> haliceh
+	fmt.Println(string(t[0]) + t)
+	fmt.Println(string(t[len(t)-1]) + t)
 }
