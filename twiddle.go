@@ -41,6 +41,7 @@ func twiddle(t string, extra bool, light bool) {
 			}
 		}
 	}
+	fmt.Println(t)
 	fmt.Println(string(t[0]) + t)
 	fmt.Println(string(t[len(t)-1]) + t)
 }
